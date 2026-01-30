@@ -4,6 +4,11 @@
 
 This repository provides the official Python implementation for the study:  
 **"Functional Hierarchy Disruption: A Mechanistic Link to Cognitive Decline and Treatment Targets in Alzheimer’s Disease"**.
+This repository is currently being populated with the scripts and data processing pipelines used in our study. We are performing a final cleanup of the code (e.g., removing absolute paths, improving documentation) to ensure full reproducibility for the peer-review process.
+
+All core algorithms and analysis scripts will be fully uploaded shortly.
+
+Status: Repository initialization and code sanitization in progress.
 
 ## 📌 Project Overview
 This project characterizes the disruption of macroscale functional hierarchy as a central mechanism in Alzheimer's Disease (AD). By linking neural hierarchy alterations to cognitive decline, the codebase provides tools to identify potential neurostimulation (e.g., tACS) and pharmacological treatment targets.
