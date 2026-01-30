@@ -54,7 +54,15 @@ The code implements a multi-step framework:
 ---
 
 ## 📜 Citation
-If you use this code or find our research helpful, please cite our work:
+If you find this work or the code helpful for your research, please cite it as follows:
+
+@article{zhao2025functional,
+  title={Functional Hierarchy Disruption: A Mechanistic Link to Cognitive Decline and Treatment Targets in Alzheimer’s Disease},
+  year={2025},
+  doi={10.21203/rs.3.rs-8184263/v1},
+  journal={Research Square},
+  note={Preprint}
+}
 
 ## ✉️ Contact
 For questions regarding the code or data, please open an issue or contact the project lead.
