@@ -34,8 +34,8 @@ Ensure you have the following environments set up:
 ### 2. Workflow Execution
 To replicate the results, follow this order:
 
-1.  **Preprocessing**: Run `postpreprocess/postProcess.py` to clean and refine the imaging data.
-2.  **Network Individualization**: Use `my_iterative_code.py` to generate individualized functional maps. This step is crucial for capturing person-specific variations in AD.
+1.  **Preprocessing**: Run `postpreprocess/postpreprocess.py` to clean and refine the imaging data.
+2.  **Network Individualization**: Use `iterative_code.py` to generate individualized functional maps. This step is crucial for capturing person-specific variations in AD.
 3.  **Hierarchy Analysis**: Execute `main5.ipynb` to perform the functional gradient analysis and link neural changes to clinical cognitive scores.
 
 > **Note**: All scripts rely on the utility functions in `Plos_ref/`. Ensure this directory is in your Python path or maintained in the root structure.
@@ -54,14 +54,16 @@ The code implements a multi-step framework:
 ---
 
 ## 📜 Citation
-@article{zhao2025functional,
-  title={Functional Hierarchy Disruption: A Mechanistic Link to Cognitive Decline and Treatment Targets in Alzheimer’s Disease},
-  author={Zhao, et al.},
-  year={2025},
-  doi={10.21203/rs.3.rs-8184263/v1},
-  journal={Research Square},
-  note={Preprint}
-}
+If you use this code or find our research helpful, please cite our work:
 
+```bibtex
+@article{zhao2025functional,
+  title   = {Functional Hierarchy Disruption: A Mechanistic Link to Cognitive Decline and Treatment Targets in Alzheimer’s Disease},
+  author  = {Zhao, et al.},
+  year    = {2025},
+  journal = {Research Square},
+  doi     = {10.21203/rs.3.rs-8184263/v1},
+  note    = {Preprint}
+}
 ## ✉️ Contact
 For questions regarding the code or data, please open an issue or contact the project lead.
