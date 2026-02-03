@@ -25,7 +25,7 @@ The pipeline is organized into modular directories corresponding to the neuroima
 | **`postpreprocess/`** | **Data Refinement.** Scripts for post-processing fMRI data (denoising, filtering). |
 | └── `postProcess.py` | Main script for preparing BOLD time-series. |
 | **`individualized_network/`** | **Individualized Mapping.** Precision mapping of functional brain networks. |
-| └── `my_iterative_code.py` | Core iterative algorithm for subject-specific functional boundaries. |
+| └── `iterative_code.py` | Core iterative algorithm for subject-specific functional boundaries. |
 | **`Analysis/`** | **Statistical Analysis.** Main computational pipeline and figure generation. |
 | └── `main5.ipynb` | Notebook for hierarchy calculation and clinical correlation analysis. |
 | **`Plos_ref/`** | **Dependency Library.** Custom functions for data handling and matrix operations. |
