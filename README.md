@@ -20,8 +20,22 @@ The codebase is organized into functional modules corresponding to different sta
 | **`Analysis/`** | **Statistical Analysis.** Main results and figure generation. |
 | └── `main5_tacs.ipynb` | Jupyter Notebook for hierarchy calculations and cognitive correlation analysis. |
 | **`Plos_ref/`** | **Toolbox & Utilities.** Essential functions for data computation and handling. |
+| **`examples/`** | **Runnable Example.** Minimal example for individualized functional network construction. |
+| └── `IFN_example.py` | Example analysis script for two participants. |
+| └── `README.md` | Example inputs, dependencies, execution instructions, and outputs. |
 
 ---
+## 🧪 Minimal Example
+
+A minimal example with two participants is available in the
+[`examples/`](examples/) directory.
+
+The example demonstrates how to load cortical time-series and tSNR data,
+construct individualized functional networks, and save participant-level
+outputs.
+
+See the [example documentation](examples/README.md) for detailed
+instructions.
 
 ## 🚀 Getting Started
 
